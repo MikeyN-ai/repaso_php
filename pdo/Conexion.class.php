@@ -11,6 +11,7 @@
                 return $con;
             } catch (PDOException $e) {
                 header('Location: conexionerror.php');
+                exit;
             }
         }
 

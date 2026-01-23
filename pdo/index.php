@@ -1,8 +1,7 @@
 <?php 
     include('Conexion.class.php');
 
+    $con = Conexion::conectarDB();
 
-    $con = Conexion::conectarBD();
-
-    
+ 
 ?>
